@@ -10,7 +10,7 @@ class NumPad extends Component {
         key={arr[i].id}
         id={arr[i].id}
         content={arr[i].content}
-        buttonType={arr[i].button}
+        buttonType={arr[i].buttonType}
       />
     )
   }

@@ -67,6 +67,7 @@ class Button extends Component {
         break;
       default:
         newInput = this.props.input
+        break;
     }
 
     newInput = this.handleEmpty(newInput)
