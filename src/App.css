@@ -1,3 +1,5 @@
+/* General */
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
@@ -22,6 +24,30 @@ body {
   font-family: 'VT323', monospace;
   font-size: 2rem;
 }
+
+/* Display */
+
+.calc-display {
+  max-width: 20rem;
+  color:#aff;
+  text-align: right;
+  word-wrap: break-word;
+  background-color: #111;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.5rem;
+  min-height: 1rem;
+}
+
+.output {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* Numpad */
 
 #NumPad {
   width: 20rem;
@@ -50,26 +76,6 @@ body {
   margin-left: 10rem;
 }
 
-.calc-display {
-  max-width: 20rem;
-  color:White;
-  text-align: right;
-  word-wrap: break-word;
-  background-color: #111;
-}
-
-#input {
-  width: 100%;
-  font-size: 1.5rem;
-  min-height: 1rem;
-  color: #aff
-}
-
-.output {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
 #clear {
   background-color: #944;
 }
@@ -81,6 +87,8 @@ body {
 #divide, #multiply, #subtract, #add {
   background-color: #bbb;
 }
+
+/* Author */
 
 #author {
   text-align: center;

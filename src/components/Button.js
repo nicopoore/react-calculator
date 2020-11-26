@@ -65,6 +65,8 @@ class Button extends Component {
           newInput = this.props.input.concat(this.props.content)
         }
         break;
+      default:
+        newInput = this.props.input
     }
 
     newInput = this.handleEmpty(newInput)
@@ -123,7 +125,7 @@ class Button extends Component {
   render() {
     const divId = this.props.id.concat('-div')
     return (
-      <div id={divId} class="padButton">
+      <div id={divId} className="padButton">
         <button id={this.props.id} onClick={this.handleClick}>{this.props.content}</button>
       </div>
     )

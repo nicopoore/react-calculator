@@ -7,9 +7,10 @@ class NumPad extends Component {
   renderButtons = (i, arr) => {
     return (
       <Button
+        key={arr[i].id}
         id={arr[i].id}
         content={arr[i].content}
-        buttonType={arr[i].buttonType}
+        buttonType={arr[i].button}
       />
     )
   }
